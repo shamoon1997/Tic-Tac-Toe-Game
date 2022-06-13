@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+    color: coral;
+}
+
+/* styling the all the h1 and h6 headings */
+h6 {
+    color: coral;
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+/*Making the main container to be flex to make it centre*/
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+/*Making the inner container to be grid to make it row like boxes*/
+.board {
+    width: 40%;
+    max-width: 40%;
+    height: 50vh;
+    max-height: 50vh;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    min-height: 0;
+}
+
+/*Css for the inner boxes of the grid*/
+.item {
+    border: 1px solid black;
+    font-size: 90px;
+    text-align: center;
+    background-color: coral;
+    overflow: hidden;
+    height: 120px;
+    max-height: 100%;
+}
+
+/*Adding hovering effects to the grids of container*/
+.item:hover {
+    background-color: #f08080;
+    cursor: pointer;
+}
+
+.btn-div {
+    text-align: center;
+}
+
+button {
+    background-color: coral;
+    width: 10%;
+    height: 7vh;
+    border: none;
+}
+
+#btnStart:hover {
+    background-color: #f08080;
+    cursor: pointer;
+}
+
+.container {
+    display: none;
+}
